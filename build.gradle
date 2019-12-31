@@ -14,7 +14,7 @@ buildscript {
 apply plugin: 'kotlin'
 
 def kotlinPluginId = 'org.jetbrains.kotlin.jvm'
-final hasPlugin = project.getPlugins().hasPlugin(kotlinPluginId);
+final hasPlugin = project.getPlugins().hasPlugin(kotlinPluginId)
 if (hasPlugin) {
     final Plugin plugin = project.getPlugins().getPlugin(kotlinPluginId)
     println 'Plugin already applied - version ' + plugin.properties['kotlinPluginVersion']
@@ -23,6 +23,7 @@ if (hasPlugin) {
 }
 
 group 'me.syari.jp_chat'
+version '1.0'
 
 repositories {
     maven {

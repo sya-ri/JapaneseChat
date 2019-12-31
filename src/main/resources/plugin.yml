@@ -1,5 +1,5 @@
 name: JapneseChat
-version: '1.0'
+version: @version@
 api-version: "1.13"
 main: me.syari.jp_chat.Main
 author: sya_ri
