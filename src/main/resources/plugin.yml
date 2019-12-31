@@ -1,0 +1,7 @@
+name: JapneseChat
+version: '1.0'
+api-version: "1.13"
+main: me.syari.jp_chat.Main
+author: sya_ri
+website: https://github.com/sya-ri/JapaneseChat
+description: "Japanese Chat Converter For Bukkit, Spigot, Paper etc..."
