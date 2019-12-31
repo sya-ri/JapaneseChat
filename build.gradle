@@ -42,11 +42,14 @@ compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+import org.apache.tools.ant.filters.ReplaceTokens
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        filter ReplaceTokens, tokens: [version: version]
+    }
+}
+
 jar {
     from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-}
-compileTestKotlin {
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
 }

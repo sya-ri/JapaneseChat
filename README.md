@@ -1,7 +1,8 @@
 # JapaneseChat
-Minecraftサーバーのチャットを日本語にするプラグインです。
-チャットフォーマットやコンフィグなど全く実装していないので自由に改変・二次配布可です。
-改変時には「 https://github.com/sya-ri/JapaneseChat 」をプラグインの説明に入れてください。
+Minecraft サーバーのチャットを日本語にするプラグインです。
+チャットフォーマットやコンフィグなど全く実装していないので自由に改変・二次配布可です。  
+改変時には「 https://github.com/sya-ri/JapaneseChat 」をプラグインの説明に入れてください。  
+開発言語: Kotlin
 
 ## Tested Minecraft Versions
 - 1.8
